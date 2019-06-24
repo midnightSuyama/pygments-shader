@@ -1,0 +1,19 @@
+<div class="highlight"><pre><span></span><span class="k">Shader</span> <span class="s">&quot;pygments-shader&quot;</span> <span class="p">{</span>
+  <span class="k">SubShader</span> <span class="p">{</span>
+    <span class="k">Pass</span> <span class="p">{</span>
+      <span class="k">CGPROGRAM</span>
+      <span class="cp">#pragma vertex vert</span>
+      <span class="cp">#pragma fragment frag</span>
+
+      <span class="kt">float4</span> <span class="n">vert</span><span class="p">(</span><span class="kt">float4</span> <span class="n">vertex</span> <span class="o">:</span> <span class="kc">POSITION</span><span class="p">)</span> <span class="o">:</span> <span class="kc">SV_POSITION</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="n">UnityObjectToClipPos</span><span class="p">(</span><span class="n">vertex</span><span class="p">);</span>
+      <span class="p">}</span>
+
+      <span class="kt">fixed4</span> <span class="n">frag</span><span class="p">()</span> <span class="o">:</span> <span class="kc">SV_Target</span> <span class="p">{</span>
+        <span class="k">return</span> <span class="kt">fixed4</span><span class="p">(</span><span class="mf">1.0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="mf">1.0</span><span class="p">);</span>
+      <span class="p">}</span>
+      <span class="k">ENDCG</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</pre></div>
