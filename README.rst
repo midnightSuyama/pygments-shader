@@ -2,6 +2,9 @@
 pygments-shader
 ===============
 
+.. image:: https://travis-ci.org/midnightSuyama/pygments-shader.svg?branch=master
+    :target: https://travis-ci.org/midnightSuyama/pygments-shader
+
 Pygments lexer for Unity shader
 
 .. image:: screenshot.png
