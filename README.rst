@@ -10,7 +10,7 @@ pygments-shader
 
 Pygments lexer for Unity shader
 
-.. image:: screenshot.png
+.. image:: https://raw.githubusercontent.com/midnightSuyama/pygments-shader/master/screenshot.png
 
 ------------
 Installation
